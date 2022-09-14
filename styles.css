@@ -192,3 +192,14 @@ button {
     flex-direction: column;
   }
 }
+@media only screen and (min-width:701px) and (max-width: 1920px) {
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+  }
+  .card {
+    flex-direction: column;
+  }
+}
