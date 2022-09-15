@@ -63,7 +63,7 @@ body {
 }
 #result {
   position: fixed;
-  margin-left: 700px;
+  margin-left: 550px;
   margin-top: 200px;
   top: 10%; 
   left: 10%;
@@ -190,6 +190,10 @@ button {
   }
   .card {
     flex-direction: column;
+  }
+  #result{
+    margin-left: 170px;
+    margin-top: 100px;
   }
 }
 @media only screen and (min-width:701px) and (max-width: 1920px) {
